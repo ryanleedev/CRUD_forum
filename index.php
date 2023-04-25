@@ -41,15 +41,13 @@ $total = $postDAO->getCnt();
     </head>
     <body>
         <div class="container mt-3">
-            <h1 class="h1">Tech Forum (Blog)</h1>
+            <h1 class="h1">Open Forum (Open Blog)</h1>
         </div>
         <div class="container mt-3">
             <h4 class="h4">Description</h4>
-            This is a Tech Forum where everyone can post their stories and tech stuff.<br>
-            You can view the all the posts by clicking on them and if you want to write a post click on the bottom right button named Write.<br>
-            Inside of posting page, you need to fill up Author, Password(more than 4 characters), Subject, Content.<br>
-            You can also edit and delete the post that you posted but you have to provide the password that you used for posting the article.<br>
-            Now, Enjoy our Tech Forum!
+            This is a Open Forum where everyone can post their stories. It's simple to use.<br>
+            <b>1. Click on the post to view the content/edit your content.</b><br>
+            <b>2. Click on the write button to post your stories.</b><br>
         </div>
         <div class="container mt-3">
             <table class="table table-bordered table-hover">
@@ -93,5 +91,8 @@ $total = $postDAO->getCnt();
 
 
         </div>
+        <?php
+        include 'footer.php';
+        ?>
     </body>
 </html>

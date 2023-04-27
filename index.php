@@ -11,7 +11,7 @@ require_once('./lib.php');
 
 $postDAO = new postDAO();
 
-$limit = 5;
+$limit = 10;
 $page_limit = 10;
 $page = (isset($_GET['page']) && $_GET['page'] != '' && is_numeric($_GET['page'])) ? $_GET['page'] : 1;
 $start = ($page -1) * $limit;
@@ -47,7 +47,7 @@ $total = $postDAO->getCnt();
             <h4 class="h4">Description</h4>
             This is a Open Forum where everyone can post their stories. It's simple to use.<br>
             <b>1. Click on the post to view the content/edit your content.</b><br>
-            <b>2. Click on the write button to post your stories.</b><br>
+            <b>2. Click on the write button to post your stories. - Author name should be less than 13 characters with no space and PW should be longer than 4 characters</b><br>
         </div>
         <div class="container mt-3">
             <table class="table table-bordered table-hover">

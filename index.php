@@ -45,7 +45,7 @@ $total = $postDAO->getCnt();
         </div>
         <div class="container mt-3">
             <h4 class="h4">Description</h4>
-            This is a Open Forum where everyone can post their stories. It's simple to use.<br>
+            This is an Open Forum where everyone can post their stories. It's simple to use.<br>
             <b>1. Click on the post to view the content/edit your content.</b><br>
             <b>2. Click on the write button to post your stories. - Author name should be less than 13 characters with no space and PW should be longer than 4 characters</b><br>
         </div>

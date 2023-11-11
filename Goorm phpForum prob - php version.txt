@@ -1,0 +1,24 @@
+Goorm phpForum prob - php version
+
+
+Version should be - php:7.2-apache & mysql:5.7
+
+Install php version 7.2 = sudo apt-get install php7.2
+
+To change version of php = sudo update-alternatives --config php
+
+
+when starting by right click on index.php on terminal it will automatically type command such as 'php -S 0.0.0.0:80 -t /workspace/phpcrud' so when making NOHUP : nohup php -S 0.0.0.0:80 -t /workspace/phpcrud / a.out &
+right after starting mysql by 'service mysql start' and then run nohup command.
+
+1. start the container
+2. start mysql - 'service mysql start'
+3. run nohup - 'nohup php -S 0.0.0.0:80 -t /workspace/phpcrudforum / a.out &' (php -S 0.0.0.0:80 -t /workspace/phpcrudforum ) part could be different
+
+'kill -9' to kill all
+
+
+# ps -ef | grep a.out
+# kill -TERM PID number
+
+nohup php -S 0.0.0.0:${current.using.port} -t ${current.project.path}

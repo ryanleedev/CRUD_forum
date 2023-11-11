@@ -44,7 +44,7 @@ $postDAO->updateHit($idx);
 <body>
 
 <div class="container mt-3 ">
-    <h1 class="h1">Tech Fourm (Blog)</h1>
+    <h1 class="h1">Open Forum (Open Blog)</h1>
 </div>
 <div class="container my-3 border border-1 vstack">
     <div class="p-3">

@@ -98,6 +98,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 		echo '<br><h6 style="text-align:center">' . $addResult . '</h6>';
         // Close connection
         $postDAO->getMysqli()->close();
+
+        echo "<script>location.href='index.php'</script>";
         }
 }
 
